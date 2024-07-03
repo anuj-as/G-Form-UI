@@ -1,5 +1,5 @@
-$(document).ready(() => {
-  $(".input-field").focusout(() => {
+$(document).ready(function () {
+  $(".input-field").focusout(function () {
     let inputValue = $(this).val();
     if (inputValue === "") {
       $(this).removeClass("has-value");

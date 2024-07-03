@@ -93,8 +93,8 @@ form .input-box .input-field:focus+.placeholder {
   color: #1a73e8;
 }
 
-form .input-box .input-field:focus+.placeholder,
-form .input-box .input-field.has-value+.placehoder {
+form .input-box .input-field:focus + .placeholder ,
+form .input-box .input-field.has-value + .placeholder {
   transform: scale(0.75) translateY(-39px);
 }
 
